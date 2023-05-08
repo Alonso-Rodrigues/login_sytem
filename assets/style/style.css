@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: linear-gradient(180deg, rgb(112, 110, 174), white);
+    height: 100vh;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 30%;
+    width: 100%;
+}
+nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    height: 80%;
+    width: 100%;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    width: 50%;
+}
+nav ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 100px;
+    border: 0.1rem ridge rgba(255, 255, 255, 0.2);
+    border-radius: 7px;
+    padding: 2px;
+    margin: 2px;
+    cursor: pointer;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+/*-------------------|FORM|--------------------*/
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 60%;
+}
+div form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+div input {
+    height: 25px;
+    margin: 10px;
+    border: 0.1rem solid rgb(171, 153, 199);
+    border-radius: 5px;
+}
+div a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+#btn-login {
+    background-color: rgb(171, 153, 199);
+    height: 30px;
+    width: 70px;
+    color: black;
+    font-weight: bold;
+    border: 0.1rem solid white;
+    border-radius: 5px;
+    margin: auto;
+    cursor: pointer;
+}
+#btn-logout {
+    background-color: rgb(27, 20, 20);
+    height: 30px;
+    width: 70px;
+    color: white;
+    font-weight: bold;
+    border: 0.1rem solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
