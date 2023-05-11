@@ -14,11 +14,11 @@ session_start();
     <header>
         <nav>
             <a href="./index.php">
-                <img src="./assets/img/business.png" alt="">
+                <img src="./assets/img/logo.jpg" alt="logo" id="logo-img">
             </a>
             <ul>
                 <li><a href="./index.php">Home</a></li>
-                <li><a href="#">Portifolio</a></li>
+                <li><a href="#">Portfolio</a></li>
                 <li><a href="#">About me</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>

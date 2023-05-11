@@ -57,5 +57,3 @@ require "header.php";
 <?php
 require "footer.php";
 ?>
-<!-- value="<?= !empty($_GET['uid']) ? $_GET['uid'] : '' ?>"
-value="<?= !empty($_GET['mail']) ? $_GET['mail'] : '' ?>" -->
